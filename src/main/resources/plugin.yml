@@ -1,11 +1,13 @@
 name: FarmBuilder
-version: 0.1.0
-main: de.farmbuilder.FarmBuilderPlugin
-api-version: '26.3'
+main: de.farm.FarmBuilder
+version: 1.0
+api-version: '1.21'
+description: /farm - Farmen per Menue auswaehlen, Vorschau, Sofort-Bau ohne Materialien (nur Admins)
 commands:
   farm:
-    description: Öffnet das FarmBuilder-Menü
-    usage: /farm
+    description: Oeffnet das Farm-Menue
+    usage: /farm [cancel]
 permissions:
   farmbuilder.use:
-    default: true
+    description: Darf /farm benutzen
+    default: op
