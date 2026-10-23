@@ -1,0 +1,11 @@
+name: FarmBuilder
+version: 0.1.0
+main: de.farmbuilder.FarmBuilderPlugin
+api-version: '26.3'
+commands:
+  farm:
+    description: Öffnet das FarmBuilder-Menü
+    usage: /farm
+permissions:
+  farmbuilder.use:
+    default: true
